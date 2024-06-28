@@ -1,3 +1,3 @@
 Assignment 2 Uploaded
 <br>
-Assignment 3 link: <a href="assignment-3-nestedlistbyafia.netlify.app"> Nestest List Assignment </a>
+Assignment 3 link: <a href="https://assignment-3-nestedlistbyafia.netlify.app/" target="_blank">Check it out here! </a>
