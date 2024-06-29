@@ -1,6 +1,6 @@
 Assignment 1 uploaded
 <br>
-Assignment 2 Uploaded
+Assignment 2 link: <a href="https://application-writing.netlify.app/" target="_blank">Check Assignment 2</a>
 <br>
 Assignment 3 link: <a href="https://assignment-3-nestedlistbyafia.netlify.app/" target="_blank">Check Assignment 3 </a>
 <br>
