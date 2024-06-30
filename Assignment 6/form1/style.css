@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+form{
+    margin: 30px;
+    background-color: #6b5acd;
+}
+
+.btn{
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 4px 7px;
+}
+
+.qualificationData{
+    border: 2px solid black;
+}

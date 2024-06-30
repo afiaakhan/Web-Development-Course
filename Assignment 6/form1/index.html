@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form 1</title>
+</head>
+
+<body>
+    <form>
+        <h2>Personal Details</h2>
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="first_name" maxlength="30" required></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" name="last_name" maxlength="30" required></td>
+            </tr>
+            <tr>
+                <td>Date of Birth:</td>
+                <td>
+                    <select name="day" required>
+                        <option value="">Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <select name="month">
+                        <option value="">Month</option>
+                        <option value="Jan">January</option>
+                        <option value="Feb">February</option>
+                        <option value="March">March</option>
+                        <option value="Apr">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="Aug">August</option>
+                        <option value="Sept">Septembe</option>
+                        <option value="Oct">October</option>
+                        <option value="Nov">November</option>
+                        <option value="Dec">December</option>
+                    </select>
+                    <select name="year">
+                        <option value="">Year</option>
+                        <option value="1990">2020</option>
+                        <option value="1991">2021</option>
+                        <option value="1991">2022</option>
+                        <option value="1991">2023</option>
+                        <option value="1991">2024</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Email ID:</td>
+                <td><input type="email" name="email_id" required></td>
+            </tr>
+            <tr>
+                <td>Mobile Number:</td>
+                <td><input type="number" name="mobile_number" maxlength="10" required></td>
+            </tr>
+            <tr>
+                <td >Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="Male" required> Male
+                    <input type="radio" name="gender" value="Female"> Female
+                </td>
+            </tr>
+        </table>
+
+        <h2>Address</h2>
+        <table>
+            <tr>
+                <td>Address:</td>
+                <td><textarea name="address" required></textarea></td>
+            </tr>
+            <tr>
+                <td>City:</td>
+                <td><input type="text" name="city" required></td>
+            </tr>
+            <tr>
+                <td>Pin Code:</td>
+                <td><input type="number" name="pin_code" maxlength="6"></td>
+            </tr>
+            <tr>
+                <td>State:</td>
+                <td><input type="text" name="state"></td>
+            </tr>
+            <tr>
+                <td>Country:</td>
+                <td><input type="text" name="country" value="Pakistan" readonly></td>
+            </tr>
+        </table>
+
+        <h2>Hobbies</h2>
+        <table>
+            <tr>
+                <td>Hobbies:</td>
+                <td>
+                    <input type="checkbox" name="hobbies" value="Drawing"> Drawing
+                    <input type="checkbox" name="hobbies" value="Singing"> Singing
+                    <input type="checkbox" name="hobbies" value="Dancing"> Dancing
+                    <input type="checkbox" name="hobbies" value="Sketching"> Sketching
+                    <input type="checkbox" name="hobbies" value="Others"> Others
+                </td>
+            </tr>
+        </table>
+
+        <h2>Qualification</h2>
+        <table class="qualificationData">
+            <tr>
+                <th>SL.No.</th>
+                <th>Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of Passing</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Class X</td>
+                <td><input type="text" name="class_x_board"></td>
+                <td><input type="number" name="class_x_percentage" max="100"></td>
+                <td><input type="number" name="class_x_year_of_passing"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Class XII</td>
+                <td><input type="text" name="class_xii_board"></td>
+                <td><input type="number" name="class_xii_percentage" max="100"></td>
+                <td><input type="number" name="class_xii_year_of_passing"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Graduation</td>
+                <td><input type="text" name="graduation_board"></td>
+                <td><input type="number" name="graduation_percentage" max="100"></td>
+                <td><input type="number" name="graduation_year_of_passing"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text" name="masters_board"></td>
+                <td><input type="number" name="masters_percentage" max="100"></td>
+                <td><input type="number" name="masters_year_of_passing"></td>
+            </tr>
+        </table>
+
+        <h2>Courses Applied For</h2>
+        <table>
+            <tr>
+                <td>Courses:</td>
+                <td>
+                    <input type="checkbox" name="courses" value="BCA"> BCA
+                    <input type="checkbox" name="courses" value="B.Com"> B.Com
+                    <input type="checkbox" name="courses" value="B.Sc"> B.Sc
+                    <input type="checkbox" name="courses" value="B.A"> B.A
+                </td>
+            </tr>
+        </table>
+
+        <button class="btn" type="submit" value="submit"> Submit </button>
+        <button class="btn" type="reset" value="Reset"> Reset </button>
+    </form>
+</body>
+
+</html>
