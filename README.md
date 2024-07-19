@@ -13,5 +13,5 @@ Assignment 6 link: <a href="" target="_blank">Check Assignment 6 </a>
 <br>
 <br>
 
-<b>CSS</b>
+<b>CSS</b> <br>
 Assignment 1 link: <a href="">Check Assignment 1</a>
