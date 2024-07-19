@@ -1,4 +1,4 @@
-<b>HTML</b>
+<b>HTML</b> <br>
 Assignment 1 uploaded
 <br>
 Assignment 2 link: <a href="https://application-writing.netlify.app/" target="_blank">Check Assignment 2</a>
