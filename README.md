@@ -11,3 +11,7 @@ Assignment 5 link: <a href="https://nested-tables-afia-1779.netlify.app/" target
 <br>
 Assignment 6 link: <a href="" target="_blank">Check Assignment 6 </a>
 <br>
+<br>
+
+<b>CSS</b>
+Assignment 1 link: <a href="">Check Assignment 1</a>
